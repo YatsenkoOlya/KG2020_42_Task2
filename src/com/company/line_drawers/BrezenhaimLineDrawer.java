@@ -14,7 +14,7 @@ public class BrezenhaimLineDrawer implements LineDrawer {
 
     @Override
     public void drawLine(int x1, int y1, int x2, int y2) {
-        int m = 1; // ???
+        int m = 1;
         if (x1 > x2) {
             int c = x1; x1 = x2; x2 = c;
             c = y1; y1 = y2; y2 = c;
@@ -30,7 +30,7 @@ public class BrezenhaimLineDrawer implements LineDrawer {
             for (int i = 1; i <= Dx; i++) {
                 pd.setPixel(x, y, Color.BLUE);
                 if (e >= 0) {
-                    y += m; // ???
+                    y += m;
                     e += -2 * Dx + (2 * Dy) * m;
                 } else
                     e += (m) * 2 * Dy;

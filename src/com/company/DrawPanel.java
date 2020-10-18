@@ -3,6 +3,7 @@ package com.company;
 import com.company.line_drawers.BrezenhaimLineDrawer;
 import com.company.line_drawers.DDALineDrawer;
 import com.company.line_drawers.GraphicsLineDrawer;
+import com.company.line_drawers.WuLineDrawer;
 import com.company.pixel_drawers.GraphicsPixelDrawer;
 import com.company.utils.DrawUtils;
 
